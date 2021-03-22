@@ -6,12 +6,12 @@
   align-items: center;
 }
 
-.welcome-header .welcome-header__title {
+.welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
 }
 
-.welcome-header .welcome-header__text {
+.welcome-header__text {
   width: 60%;
   opacity: 0.5;
 }

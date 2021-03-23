@@ -28,3 +28,13 @@
   bottom: 20px;
   left: 75px;
 }
+
+.screen-header__icons__dot2 {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 125px;
+}

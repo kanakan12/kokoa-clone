@@ -12,7 +12,7 @@
 
 #no-mobile:before {
   content: "";
-  background-image: url("././screenshots/pokeball.png");
+  background-image: url("../../screenshots/pokeball.png");
   background-size: cover;
   position: absolute;
   top: 0px;

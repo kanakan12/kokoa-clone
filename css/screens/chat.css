@@ -1,14 +1,9 @@
-#chat-screen {
-  background-color: #abc1d1;
-  height: 200vh;
-}
-
 #chat-screen .alt-header {
   top: 0;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: #dc484d;
   z-index: 1;
 }
 
@@ -32,8 +27,8 @@
 }
 
 .chat__timestamp {
-  color: white;
-  background-color: #92a4b2;
+  color: #dc484d;
+  background-color: white;
   padding: 8px 15px;
   border-radius: 15px;
   font-size: 15px;
@@ -54,7 +49,6 @@
 }
 
 .message__author {
-  opacity: 0.5;
   font-size: 15px;
   margin-bottom: 5px;
   display: block;
@@ -73,8 +67,12 @@
   margin-right: 5px;
 }
 
+.message__info span:first-child {
+  color: #dc484d;
+}
+
 .message__time {
-  opacity: 0.5;
+  opacity: 0.8;
   font-size: 12px;
 }
 
@@ -83,7 +81,7 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: yellow;
   border-radius: 15px;
   border-top-right-radius: 0px;
   margin-right: 0px;
@@ -123,7 +121,7 @@
 .reply input {
   padding: 10px;
   width: 100%;
-  border: var(--main-border);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
 }
@@ -141,7 +139,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: #dc484d;
   border: none;
   width: 30px;
   height: 30px;
@@ -157,19 +155,7 @@
   outline: none;
 }
 
-.reply .fa-smile-wink,
-.reply .reply__column:first-child {
-  transition: opacity 0.3s ease-in-out;
-}
-
-.reply:focus-within .fa-smile-wink,
-.reply:focus-within .reply__column:first-child {
-  opacity: 0;
-  visibility: hidden;
-}
-
 .reply:focus-within input {
-  width: 95vw;
   transform: translateX(-8%) translateY(-80px);
 }
 

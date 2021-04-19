@@ -10,9 +10,4 @@
 .settings__setting i {
   margin-right: 15px;
   font-size: 23px;
-  opacity: 0.8;
-}
-
-.settings__setting-column:last-child {
-  opacity: 0.6;
 }

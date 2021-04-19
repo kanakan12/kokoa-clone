@@ -22,10 +22,24 @@
 @import "screens/chat.css";
 
 body {
-  color: #2e363e;
+  /* color: #2e363e; */
   font-family: "Open Sans", sans-serif;
 }
 
+body:before {
+  content: "";
+  background-image: url("../screenshots/pokemon-go-background.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+  z-index: -1;
+}
+
 .main-screen {
-  padding: 0px var(--horizontal-space);
+  padding: 0px 25px;
+  color: white;
 }

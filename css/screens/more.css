@@ -1,6 +1,9 @@
+.more-screen {
+  color: white;
+}
+
 .user-component__subtitle i {
   margin-left: 5px;
-  color: tomato;
   opacity: 0.8;
 }
 
@@ -10,7 +13,7 @@
 
 .more-suggestions {
   margin-top: 50px;
-  border-top: var(--main-border);
+  border-top: 3px solid rgba(255, 255, 255, 0.8);
   padding-top: 40px;
 }
 
@@ -32,7 +35,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: #dc484d;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -43,4 +46,8 @@
 .more-suggestions__icon-image i {
   font-size: 30px;
   color: white;
+}
+
+.more-suggestions__icon-text {
+  color: #dc484d;
 }
